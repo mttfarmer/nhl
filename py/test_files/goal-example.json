@@ -1,0 +1,38 @@
+{
+    "eventId": 357,
+    "periodDescriptor": {
+        "number": 1,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+    },
+    "timeInPeriod": "16:21",
+    "timeRemaining": "03:39",
+    "situationCode": "1551",
+    "homeTeamDefendingSide": "left",
+    "typeCode": 505,
+    "typeDescKey": "goal",
+    "sortOrder": 223,
+    "details": {
+        "xCoord": -93,
+        "yCoord": 11,
+        "zoneCode": "O",
+        "shotType": "backhand",
+        "scoringPlayerId": 8481477,
+        "scoringPlayerTotal": 3,
+        "assist1PlayerId": 8479336,
+        "assist1PlayerTotal": 3,
+        "assist2PlayerId": 8481567,
+        "assist2PlayerTotal": 4,
+        "eventOwnerTeamId": 28,
+        "goalieInNetId": 8474596,
+        "awayScore": 1,
+        "homeScore": 0,
+        "highlightClipSharingUrl": "https://nhl.com/video/sjs-njd-sturm-scores-goal-against-jake-allen-6364525777112",
+        "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sjs-njd-sturm-marque-un-but-contre-jake-allen-6364525585112",
+        "highlightClip": 6364525777112,
+        "highlightClipFr": 6364525585112,
+        "discreteClip": 6364526244112,
+        "discreteClipFr": 6364526921112
+    },
+    "pptReplayUrl": "https://wsr.nhle.com/sprites/20242025/2024020236/ev357.json"
+}
