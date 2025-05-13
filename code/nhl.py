@@ -21,3 +21,8 @@ class nhlApi:
     def getPlayersOnIceAtTime(shiftData, period, timestamp):
         targetShifts = [shift for shift in shiftData if shift["period"] == period and timestamp >= shift["startTime"] and timestamp <= shift["endTime"]]
         return targetShifts
+    @staticmethod
+    def getStandings(date):
+        r = requests.get(f'https://api-web.nhle.com/v1/standings/{date}')
+        r = r.json()
+        return r
